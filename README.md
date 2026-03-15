@@ -39,7 +39,7 @@ A digital twin is a virtual representation of a physical system that updates in 
 ### From PyPI (Recommended)
 
 ```bash
-pip install digital-twins
+pip install digital-twins-dds
 ```
 
 ### From Source
