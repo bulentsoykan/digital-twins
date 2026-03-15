@@ -12,7 +12,7 @@ from typing import Callable, Optional, Tuple
 
 
 # ==========================================
-# 1. STANDARD KALMAN FILTER (Algorithm 6.2)
+# 1. STANDARD KALMAN FILTER 
 # ==========================================
 
 class KalmanFilter:
@@ -194,7 +194,7 @@ class EnsembleKalmanFilter:
 
 
 # ==========================================
-# 4. EXECUTABLE DEMONSTRATION: 1D AGENT (Sec 6.7.4)
+# 4. EXECUTABLE DEMONSTRATION: 1D AGENT
 # ==========================================
 
 if __name__ == "__main__":
