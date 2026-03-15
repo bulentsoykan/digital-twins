@@ -1,0 +1,14 @@
+{
+    "dt": 1.0,
+    "true_initial_position": 20.0,
+    "true_initial_velocity": 10.0,
+    "process_noise_pos_std": 1.5,
+    "process_noise_vel_std": 0.5,
+    "ambient_temp": 10.0,
+    "fire_temp_rise": 30.0,
+    "fire_spread_constant": 15.0,
+    "sensor_noise_std": 2.0,
+    "fireplace_1_pos": 80.0,
+    "fireplace_2_pos": 200.0,
+    "total_steps": 30
+}
