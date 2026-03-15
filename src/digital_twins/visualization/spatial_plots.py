@@ -64,7 +64,7 @@ def plot_discrete_grid(
 def plot_wildfire_state(
     fire_grid: np.ndarray,
     ax: Optional[plt.Axes] = None,
-    title: str = "Wildfire Spread State (Fig 8.4)"
+    title: str = "Wildfire Spread State"
 ) -> plt.Axes:
     """
     Plots the discrete state of a wildfire simulation.
@@ -144,7 +144,7 @@ if __name__ == "__main__":
     fig.suptitle("Digital Twins: Spatiotemporal Visualization", fontsize=18, fontweight='bold')
 
     # ---------------------------------------------------------
-    # 1. 1D Cellular Automata History (e.g., Rule 30 / Fig 3.6)
+    # 1. 1D Cellular Automata History 
     # ---------------------------------------------------------
     ax1 = fig.add_subplot(gs[0, 0])
     
@@ -173,7 +173,7 @@ if __name__ == "__main__":
     plot_discrete_grid(eco_grid, cmap=eco_cmap, ax=ax2, title="Sheep-Grass Ecosystem CA (Fig 3.11)", show_gridlines=True)
 
     # ---------------------------------------------------------
-    # 3. Wildfire Discrete State (Fig 8.4)
+    # 3. Wildfire Discrete State 
     # ---------------------------------------------------------
     ax3 = fig.add_subplot(gs[1, 0])
     
@@ -194,11 +194,11 @@ if __name__ == "__main__":
     plot_wildfire_state(fire_state, ax=ax3)
 
     # ---------------------------------------------------------
-    # 4. Wildfire Continuous Temperature Heatmap & Sensors (Fig 8.5)
+    # 4. Wildfire Continuous Temperature Heatmap & Sensors 
     # ---------------------------------------------------------
     ax4 = fig.add_subplot(gs[1, 1])
     
-    # Generate a temperature field based on the fire state (Equation 8.7 concept)
+    # Generate a temperature field based on the fire state 
     T_a = 27.0 # Ambient
     T_c = 376.0 # Fire temp
     
@@ -216,7 +216,7 @@ if __name__ == "__main__":
         ax=ax4, 
         cmap='hot', 
         sensor_locations=sensors, 
-        title="Real-Time Temp Measurement Data (Fig 8.5)"
+        title="Real-Time Temp Measurement Data "
     )
 
     plt.tight_layout()
