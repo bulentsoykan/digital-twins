@@ -13,7 +13,7 @@ from typing import Callable, Optional, Tuple
 
 
 # ==========================================
-# 1. SYSTEMATIC RESAMPLING (Algorithm 6.3)
+# 1. SYSTEMATIC RESAMPLING 
 # ==========================================
 
 def systematic_resampling(weights: np.ndarray, N: int) -> np.ndarray:
@@ -50,7 +50,7 @@ def systematic_resampling(weights: np.ndarray, N: int) -> np.ndarray:
 
 
 # ==========================================
-# 2. BOOTSTRAP PARTICLE FILTER (Algorithm 6.4)
+# 2. BOOTSTRAP PARTICLE FILTER 
 # ==========================================
 
 class BootstrapParticleFilter:
@@ -152,7 +152,7 @@ class BootstrapParticleFilter:
 
 
 # ==========================================
-# 3. EXECUTABLE DEMONSTRATION (Section 6.8.4)
+# 3. EXECUTABLE DEMONSTRATION 
 # ==========================================
 
 if __name__ == "__main__":
