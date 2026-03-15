@@ -48,7 +48,7 @@ class DiscreteTimeModel:
 
 
 # ==========================================
-# 2. DISCRETE TIME SIMULATOR (Algorithm 3.2)
+# 2. DISCRETE TIME SIMULATOR 
 # ==========================================
 
 class DiscreteTimeSimulator:
@@ -115,7 +115,7 @@ class DiscreteTimeSimulator:
 
 
 # ==========================================
-# 3. TEXTBOOK EXAMPLE: 1D CELLULAR AUTOMATON
+# 3.  EXAMPLE: 1D CELLULAR AUTOMATON
 # ==========================================
 
 class CellularAutomaton1D(DiscreteTimeModel):
