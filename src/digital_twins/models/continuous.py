@@ -99,7 +99,7 @@ class ContinuousModel:
 
 
 # ==========================================
-# 3. CONTINUOUS SIMULATOR (Algorithm 3.1)
+# 3. CONTINUOUS SIMULATOR 
 # ==========================================
 
 class ContinuousSimulator:
@@ -173,7 +173,7 @@ class ContinuousSimulator:
 
 
 # ==========================================
-# 4. TEXTBOOK EXAMPLE: THE LORENZ SYSTEM
+# 4. EXAMPLE: THE LORENZ SYSTEM
 # ==========================================
 
 class LorenzSystem(ContinuousModel):
