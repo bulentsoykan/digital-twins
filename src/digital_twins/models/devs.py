@@ -179,7 +179,7 @@ class DEVSCoordinator:
 
 
 # ==========================================
-# 3. TEXTBOOK EXAMPLE: CAR WASH SYSTEM
+# 3.  EXAMPLE: CAR WASH SYSTEM
 # ==========================================
 
 class CarGenerator(DEVSAtomic):
@@ -260,7 +260,7 @@ class Transducer(DEVSAtomic):
 
 
 # ==========================================
-# 4. EXECUTABLE DEMONSTRATION (Figure 3.9)
+# 4. EXECUTABLE DEMONSTRATION 
 # ==========================================
 
 if __name__ == "__main__":
